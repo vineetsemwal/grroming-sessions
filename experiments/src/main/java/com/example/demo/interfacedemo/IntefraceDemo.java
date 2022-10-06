@@ -1,6 +1,6 @@
-package com.example.demo;
+package com.example.demo.interfacedemo;
 
-public class DemoApplication {
+public class IntefraceDemo {
 
     public static void main(String[] args) {
         ICalculator calculator = new SamsungCalculator();
