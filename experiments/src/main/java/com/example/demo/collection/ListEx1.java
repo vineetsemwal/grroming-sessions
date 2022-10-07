@@ -1,11 +1,11 @@
-package com.example.demo.colection;
+package com.example.demo.collection;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class ListEx1 {
     public static void main(String args[]) {
-        List<String> list = new ArrayList<>();
+        List<String> list = new LinkedList<>();
         list.add("hi");
         list.add("hello");
         list.add("bye");
@@ -16,5 +16,6 @@ public class ListEx1 {
             System.out.println("iterated="+iterated);
         }
         boolean exists=list.contains("bye");
+        System.out.println("exists="+exists);
     }
 }

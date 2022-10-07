@@ -27,6 +27,11 @@ public class Employee {
     }
 
     @Override
+    public int hashCode() {
+        return id;
+    }
+
+    @Override
     public boolean equals(Object obj) {
         if(this==obj){
            return true;
